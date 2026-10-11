@@ -103,8 +103,8 @@ you will use for the export. Try:
 python3 -c "import playwright"
 ```
 
-If that fails, try `python -c "import playwright"` (the usual command on
-Windows). Use whichever interpreter passes the import for the rasterization
+If that fails, run the same import check with the `python` command instead of
+`python3` (the usual command on Windows). Use whichever interpreter passes the import for the rasterization
 command below. If both imports fail, surface this exact instruction to the user
 and stop:
 
